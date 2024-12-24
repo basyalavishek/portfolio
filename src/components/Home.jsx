@@ -10,8 +10,8 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
                     I'm a full Stack Developer and AI/ML enthusiast.
                 </h2>
-                <p className='text-gray-400 py-4 max-w-md'>
-                    about yourself
+                <p className='text-gray-400 py-4 max-w-md text-xl'>
+                Hello, I’m Avishek Basyal, a passionate Computer Engineering student at Western Regional Campus. I specialize in web development with skills in Python, C, C++, HTML, CSS, JavaScript, and React. My goal is to become a skilled AI/ML Developer and work on innovative projects that make a real-world impact.
                 </p>
 
                 <div>
