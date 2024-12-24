@@ -37,7 +37,7 @@ const NavBar = () => {
     <ul className="hidden md:flex">
 
         {links.map(({ id, link}) =>(
-            <li key = {id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">{link}</li>    
+            <li key = {id} className="px-4 cursor-pointer capitalize font-large text-gray-500 hover:scale-105 duration-200">{link}</li>    
     ))}
 
     </ul>
@@ -49,7 +49,7 @@ const NavBar = () => {
     {
         // if nav is true then only show this
         nav && (
-            <ul className='flex flex-col justify-center items-center py-6 top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 absolute'>
+            <ul className='flex flex-col justify-center items-center py-6 top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 text-gray-500 absolute'>
             {/*This gradient will go from top to bottom
             color at top will be black and then it goes to grey at end
             */}
