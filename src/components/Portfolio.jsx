@@ -8,6 +8,7 @@ import grocify from '../assets/portfolio/grocify.png';
 import newsapp from '../assets/portfolio/newsapp.png';
 import fb from '../assets/portfolio/fb.png';
 
+
 const Portfolio = () => {
 
     const portfolio = [
